@@ -34,16 +34,17 @@ This project applies multiple regression models to predict gold prices and compa
 ---
 
 ## 📂 Project Structure
-
-```
-Gold_Price_Predictor_Regression_Models/
-│
+---
+Gold_Price_Predictor_Regression_Models
 ├── 📁 Different ML Models Project - Gold Price Prediction/
-│   ├── gold_price_prediction.ipynb
-│   ├── dataset.csv
+│ ├── gold_price_prediction.ipynb
+│ ├── dataset.csv
+│
+├── training_r2.png
+├── testing_r2.png
 │
 └── README.md
-```
+---
 
 ---
 
@@ -51,13 +52,13 @@ Gold_Price_Predictor_Regression_Models/
 
 ### 🔹 Training R² Score Comparison
 
-![Training R2 Score](./assets/training_r2.png)
+![Training R2 Score](training_r2.png)
 
 ---
 
 ### 🔹 Testing R² Score Comparison
 
-![Testing R2 Score](./assets/testing_r2.png)
+![Testing R2 Score](testing_r2.png)
 
 ---
 
@@ -78,14 +79,9 @@ Gold_Price_Predictor_Regression_Models/
 ---
 
 ## 🚀 How to Run
+- pip install pandas numpy matplotlib scikit-learn
+- jupyter notebook
 
-```
-pip install pandas numpy matplotlib scikit-learn
-```
-
-```
-jupyter notebook
-```
 
 Open the notebook and run all cells.
 
